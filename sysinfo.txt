@@ -1,0 +1,335 @@
+root@ip-172-31-19-251:~# sudo cat /var/log/sysinfo
+===== Wed Oct 30 18:45:01 UTC 2024 =====
+ 18:45:01 up 1 min,  0 users,  load average: 1.00, 0.33, 0.12
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+               total        used        free      shared  buff/cache   available
+Mem:             965         229         103           0         632         584
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.9G  5.8G  25% /
+tmpfs           483M     0  483M   0% /dev/shm
+tmpfs           194M  828K  193M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=498,fd=5))
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=13))
+udp   UNCONN 0      0      172.31.19.251%eth0:68        0.0.0.0:*    users:(("systemd-network",pid=399,fd=18))
+udp   UNCONN 0      0                   [::1]:323          [::]:*    users:(("chronyd",pid=498,fd=6))
+tcp   LISTEN 0      128               0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=662,fd=3))
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=14))
+tcp   LISTEN 0      128                  [::]:22           [::]:*    users:(("sshd",pid=662,fd=4))
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=58 time=1.09 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.087/1.087/1.087/0.000 ms
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/snapd/snap-confine
+/usr/libexec/polkit-agent-helper-1
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/su
+/usr/bin/sudo
+/usr/bin/chfn
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/pkexec
+/usr/bin/umount
+/usr/bin/fusermount3
+/usr/bin/mount
+/snap/core20/1879/usr/bin/chfn
+/snap/core20/1879/usr/bin/chsh
+/snap/core20/1879/usr/bin/gpasswd
+/snap/core20/1879/usr/bin/mount
+/snap/core20/1879/usr/bin/newgrp
+/snap/core20/1879/usr/bin/passwd
+/snap/core20/1879/usr/bin/su
+/snap/core20/1879/usr/bin/sudo
+/snap/core20/1879/usr/bin/umount
+/snap/core20/1879/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1879/usr/lib/openssh/ssh-keysign
+/snap/core18/2745/bin/mount
+/snap/core18/2745/bin/ping
+/snap/core18/2745/bin/su
+/snap/core18/2745/bin/umount
+/snap/core18/2745/usr/bin/chfn
+/snap/core18/2745/usr/bin/chsh
+/snap/core18/2745/usr/bin/gpasswd
+/snap/core18/2745/usr/bin/newgrp
+/snap/core18/2745/usr/bin/passwd
+/snap/core18/2745/usr/bin/sudo
+/snap/core18/2745/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core18/2745/usr/lib/openssh/ssh-keysign
+/snap/snapd/19122/usr/lib/snapd/snap-confine
+===== Wed Oct 30 18:46:01 UTC 2024 =====
+ 18:46:01 up 2 min,  0 users,  load average: 0.50, 0.31, 0.12
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+               total        used        free      shared  buff/cache   available
+Mem:             965         195          67           0         702         581
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.9G  5.8G  25% /
+tmpfs           483M     0  483M   0% /dev/shm
+tmpfs           194M  828K  193M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=498,fd=5))
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=13))
+udp   UNCONN 0      0      172.31.19.251%eth0:68        0.0.0.0:*    users:(("systemd-network",pid=399,fd=18))
+udp   UNCONN 0      0                   [::1]:323          [::]:*    users:(("chronyd",pid=498,fd=6))
+tcp   LISTEN 0      128               0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=662,fd=3))
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=14))
+tcp   LISTEN 0      128                  [::]:22           [::]:*    users:(("sshd",pid=662,fd=4))
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=58 time=0.862 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.862/0.862/0.862/0.000 ms
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/snapd/snap-confine
+/usr/libexec/polkit-agent-helper-1
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/su
+/usr/bin/sudo
+/usr/bin/chfn
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/pkexec
+/usr/bin/umount
+/usr/bin/fusermount3
+/usr/bin/mount
+/snap/core20/1879/usr/bin/chfn
+/snap/core20/1879/usr/bin/chsh
+/snap/core20/1879/usr/bin/gpasswd
+/snap/core20/1879/usr/bin/mount
+/snap/core20/1879/usr/bin/newgrp
+/snap/core20/1879/usr/bin/passwd
+/snap/core20/1879/usr/bin/su
+/snap/core20/1879/usr/bin/sudo
+/snap/core20/1879/usr/bin/umount
+/snap/core20/1879/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1879/usr/lib/openssh/ssh-keysign
+/snap/core18/2745/bin/mount
+/snap/core18/2745/bin/ping
+/snap/core18/2745/bin/su
+/snap/core18/2745/bin/umount
+/snap/core18/2745/usr/bin/chfn
+/snap/core18/2745/usr/bin/chsh
+/snap/core18/2745/usr/bin/gpasswd
+/snap/core18/2745/usr/bin/newgrp
+/snap/core18/2745/usr/bin/passwd
+/snap/core18/2745/usr/bin/sudo
+/snap/core18/2745/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core18/2745/usr/lib/openssh/ssh-keysign
+/snap/snapd/19122/usr/lib/snapd/snap-confine
+===== Wed Oct 30 18:47:01 UTC 2024 =====
+ 18:47:01 up 3 min,  2 users,  load average: 0.22, 0.26, 0.11
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ubuntu   pts/0    194.44.57.213    18:46   21.00s  0.02s  0.01s sshd: ubuntu [priv]                                                                
+ubuntu   pts/1    194.44.57.213    18:46    5.00s  0.00s  0.00s sudo -i
+               total        used        free      shared  buff/cache   available
+Mem:             965         223          69           0         673         559
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.9G  5.8G  25% /
+tmpfs           483M     0  483M   0% /dev/shm
+tmpfs           194M  848K  193M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            97M  4.0K   97M   1% /run/user/1000
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=498,fd=5))
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=13))
+udp   UNCONN 0      0      172.31.19.251%eth0:68        0.0.0.0:*    users:(("systemd-network",pid=399,fd=18))
+udp   UNCONN 0      0                   [::1]:323          [::]:*    users:(("chronyd",pid=498,fd=6))
+tcp   LISTEN 0      128               0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=662,fd=3))
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=14))
+tcp   LISTEN 0      128                  [::]:22           [::]:*    users:(("sshd",pid=662,fd=4))
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=58 time=1.38 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.382/1.382/1.382/0.000 ms
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/snapd/snap-confine
+/usr/libexec/polkit-agent-helper-1
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/su
+/usr/bin/sudo
+/usr/bin/chfn
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/pkexec
+/usr/bin/umount
+/usr/bin/fusermount3
+/usr/bin/mount
+/snap/core20/1879/usr/bin/chfn
+/snap/core20/1879/usr/bin/chsh
+/snap/core20/1879/usr/bin/gpasswd
+/snap/core20/1879/usr/bin/mount
+/snap/core20/1879/usr/bin/newgrp
+/snap/core20/1879/usr/bin/passwd
+/snap/core20/1879/usr/bin/su
+/snap/core20/1879/usr/bin/sudo
+/snap/core20/1879/usr/bin/umount
+/snap/core20/1879/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1879/usr/lib/openssh/ssh-keysign
+/snap/core18/2745/bin/mount
+/snap/core18/2745/bin/ping
+/snap/core18/2745/bin/su
+/snap/core18/2745/bin/umount
+/snap/core18/2745/usr/bin/chfn
+/snap/core18/2745/usr/bin/chsh
+/snap/core18/2745/usr/bin/gpasswd
+/snap/core18/2745/usr/bin/newgrp
+/snap/core18/2745/usr/bin/passwd
+/snap/core18/2745/usr/bin/sudo
+/snap/core18/2745/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core18/2745/usr/lib/openssh/ssh-keysign
+/snap/snapd/19122/usr/lib/snapd/snap-confine
+===== Wed Oct 30 18:48:01 UTC 2024 =====
+ 18:48:01 up 4 min,  2 users,  load average: 0.08, 0.21, 0.10
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ubuntu   pts/0    194.44.57.213    18:46    1:21   0.02s  0.01s sshd: ubuntu [priv]                                                                
+ubuntu   pts/1    194.44.57.213    18:46   16.00s  0.00s  0.00s sudo -i
+               total        used        free      shared  buff/cache   available
+Mem:             965         228          58           0         678         553
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.9G  5.8G  25% /
+tmpfs           483M     0  483M   0% /dev/shm
+tmpfs           194M  848K  193M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            97M  4.0K   97M   1% /run/user/1000
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=498,fd=5))
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=13))
+udp   UNCONN 0      0      172.31.19.251%eth0:68        0.0.0.0:*    users:(("systemd-network",pid=399,fd=18))
+udp   UNCONN 0      0                   [::1]:323          [::]:*    users:(("chronyd",pid=498,fd=6))
+tcp   LISTEN 0      128               0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=662,fd=3))
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=14))
+tcp   LISTEN 0      128                  [::]:22           [::]:*    users:(("sshd",pid=662,fd=4))
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=58 time=1.22 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.222/1.222/1.222/0.000 ms
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/snapd/snap-confine
+/usr/libexec/polkit-agent-helper-1
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/su
+/usr/bin/sudo
+/usr/bin/chfn
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/pkexec
+/usr/bin/umount
+/usr/bin/fusermount3
+/usr/bin/mount
+/snap/core20/1879/usr/bin/chfn
+/snap/core20/1879/usr/bin/chsh
+/snap/core20/1879/usr/bin/gpasswd
+/snap/core20/1879/usr/bin/mount
+/snap/core20/1879/usr/bin/newgrp
+/snap/core20/1879/usr/bin/passwd
+/snap/core20/1879/usr/bin/su
+/snap/core20/1879/usr/bin/sudo
+/snap/core20/1879/usr/bin/umount
+/snap/core20/1879/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1879/usr/lib/openssh/ssh-keysign
+/snap/core18/2745/bin/mount
+/snap/core18/2745/bin/ping
+/snap/core18/2745/bin/su
+/snap/core18/2745/bin/umount
+/snap/core18/2745/usr/bin/chfn
+/snap/core18/2745/usr/bin/chsh
+/snap/core18/2745/usr/bin/gpasswd
+/snap/core18/2745/usr/bin/newgrp
+/snap/core18/2745/usr/bin/passwd
+/snap/core18/2745/usr/bin/sudo
+/snap/core18/2745/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core18/2745/usr/lib/openssh/ssh-keysign
+/snap/snapd/19122/usr/lib/snapd/snap-confine
+===== Wed Oct 30 18:49:01 UTC 2024 =====
+ 18:49:01 up 5 min,  2 users,  load average: 0.03, 0.17, 0.09
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ubuntu   pts/0    194.44.57.213    18:46    2:21   0.02s  0.01s sshd: ubuntu [priv]                                                                
+ubuntu   pts/1    194.44.57.213    18:46    2.00s  0.00s  0.00s sudo -i
+               total        used        free      shared  buff/cache   available
+Mem:             965         210          62           0         693         575
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  1.9G  5.8G  25% /
+tmpfs           483M     0  483M   0% /dev/shm
+tmpfs           194M  848K  193M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            97M  4.0K   97M   1% /run/user/1000
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0               127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=498,fd=5))
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=13))
+udp   UNCONN 0      0      172.31.19.251%eth0:68        0.0.0.0:*    users:(("systemd-network",pid=399,fd=18))
+udp   UNCONN 0      0                   [::1]:323          [::]:*    users:(("chronyd",pid=498,fd=6))
+tcp   LISTEN 0      128               0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=662,fd=3))
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=401,fd=14))
+tcp   LISTEN 0      128                  [::]:22           [::]:*    users:(("sshd",pid=662,fd=4))
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=58 time=1.25 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.254/1.254/1.254/0.000 ms
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/snapd/snap-confine
+/usr/libexec/polkit-agent-helper-1
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/su
+/usr/bin/sudo
+/usr/bin/chfn
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/pkexec
+/usr/bin/umount
+/usr/bin/fusermount3
+/usr/bin/mount
+/snap/core20/1879/usr/bin/chfn
+/snap/core20/1879/usr/bin/chsh
+/snap/core20/1879/usr/bin/gpasswd
+/snap/core20/1879/usr/bin/mount
+/snap/core20/1879/usr/bin/newgrp
+/snap/core20/1879/usr/bin/passwd
+/snap/core20/1879/usr/bin/su
+/snap/core20/1879/usr/bin/sudo
+/snap/core20/1879/usr/bin/umount
+/snap/core20/1879/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1879/usr/lib/openssh/ssh-keysign
+/snap/core18/2745/bin/mount
+/snap/core18/2745/bin/ping
+/snap/core18/2745/bin/su
+/snap/core18/2745/bin/umount
+/snap/core18/2745/usr/bin/chfn
+/snap/core18/2745/usr/bin/chsh
+/snap/core18/2745/usr/bin/gpasswd
+/snap/core18/2745/usr/bin/newgrp
+/snap/core18/2745/usr/bin/passwd
+/snap/core18/2745/usr/bin/sudo
+/snap/core18/2745/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core18/2745/usr/lib/openssh/ssh-keysign
+/snap/snapd/19122/usr/lib/snapd/snap-confine
